@@ -9,9 +9,15 @@ var build = {
 	skillstab: 24, //combat
 	wantedskills: [106, 102], //zeal, holy fire
 	usefulskills: [98, 100], //might, resist fire
-	mercAuraName: "Holy Freeze",
-	mercAuraWanted: 114,
-	mercDiff: 1,
+	if (!Developer.PD2) {
+		mercAuraName: "Holy Freeze",
+		mercAuraWanted: 114,
+		mercDiff: 1,
+	} else {
+		mercAuraName: "Defiance",
+		mercAuraWanted: 104,
+		mercDiff: 0,
+	}
 	stats: [
 		["vitality", 80], // base 25
 		["dexterity", 27], // base 20

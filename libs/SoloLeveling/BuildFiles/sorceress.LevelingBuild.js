@@ -9,9 +9,15 @@ var build = {
 	skillstab: 10, //cold
 	wantedskills: [59, 47, 65], // blizzard, fireball, cold mastery
 	usefulskills: [55, 56, 61, 42], // glacial spike, meteor, fire mastery, static
-	mercAuraName: "Holy Freeze",
-	mercAuraWanted: 114,
-	mercDiff: 1,
+	if (!Developer.PD2) {
+		mercAuraName: "Holy Freeze",
+		mercAuraWanted: 114,
+		mercDiff: 1,
+	} else {
+		mercAuraName: "Defiance",
+		mercAuraWanted: 104,
+		mercDiff: 0,
+	}
 	stats: [
 		["energy", 50], ["strength", 48], ["vitality", 165], ["strength", 61], ["vitality", 252], ["strength", 95], ["dexterity", "block"], ["vitality", "all"]
 	],

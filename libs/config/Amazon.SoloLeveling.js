@@ -119,10 +119,10 @@ function LoadConfig () {
 	Config.Inventory[2] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 	Config.Inventory[3] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 	if (Developer.PD2) {
-	Config.Inventory[4] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
-	Config.Inventory[5] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
-	Config.Inventory[6] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
-	Config.Inventory[7] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+		Config.Inventory[4] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+		Config.Inventory[5] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+		Config.Inventory[6] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+		Config.Inventory[7] = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 	}
 
 	/* Pickit configuration. */

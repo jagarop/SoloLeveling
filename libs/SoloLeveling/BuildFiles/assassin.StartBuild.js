@@ -9,9 +9,15 @@ var build = {
 	skillstab: 48, // traps
 	wantedskills: [251, 262], // fireblast, wake of fire
 	usefulskills: [252], // claw mastery
-	mercAuraName: "Holy Freeze",
-	mercAuraWanted: 114,
-	mercDiff: 1,
+	if (!Developer.PD2) {
+		mercAuraName: "Holy Freeze",
+		mercAuraWanted: 114,
+		mercDiff: 1,
+	} else {
+		mercAuraName: "Defiance",
+		mercAuraWanted: 104,
+		mercDiff: 0,
+	}
 	stats: [
 		["vitality", 70],
 		["strength", 47],

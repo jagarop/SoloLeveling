@@ -9,9 +9,15 @@ var build = {
 	skillstab: 10, //cold
 	wantedskills: [59, 48], // blizzard, nova
 	usefulskills: [63, 65, 55], // light-mastery, cold mastery
-	mercAuraName: "Holy Freeze",
-	mercAuraWanted: 114,
-	mercDiff: 1,
+	if (!Developer.PD2) {
+		mercAuraName: "Holy Freeze",
+		mercAuraWanted: 114,
+		mercDiff: 1,
+	} else {
+		mercAuraName: "Defiance",
+		mercAuraWanted: 104,
+		mercDiff: 0,
+	}
 	stats: [
 		["strength", 156], ["dexterity", 35], ["vitality", "all"]
 	],

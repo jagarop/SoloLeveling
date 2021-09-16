@@ -9,9 +9,15 @@ var build = {
 	skillstab: 9, //light
 	wantedskills: [53, 49], // Chain-light, lightning
 	usefulskills: [63, 38, 48], // light-mastery, charged bolt, nova
-	mercAuraName: "Holy Freeze",
-	mercAuraWanted: 114,
-	mercDiff: 1,
+	if (!Developer.PD2) {
+		mercAuraName: "Holy Freeze",
+		mercAuraWanted: 114,
+		mercDiff: 1,
+	} else {
+		mercAuraName: "Defiance",
+		mercAuraWanted: 104,
+		mercDiff: 0,
+	}
 	stats: [
 		["strength", 156], ["dexterity", 35], ["vitality", "all"]
 	],

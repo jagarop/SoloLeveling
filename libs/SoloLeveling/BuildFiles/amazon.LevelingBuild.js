@@ -9,9 +9,15 @@ var build = {
 	skillstab: 2, // Jav N Spear Skills
 	wantedskills: [24, 34], // Charged Strike, Lightning Strike
 	usefulskills: [9, 23, 32, 33], // Critical Strike, Penetrate, Valkyrie, Pierce
-	mercAuraName: "Holy Freeze",
-	mercAuraWanted: 114,
-	mercDiff: 1,
+	if (!Developer.PD2) {
+		mercAuraName: "Holy Freeze",
+		mercAuraWanted: 114,
+		mercDiff: 1,
+	} else {
+		mercAuraName: "Defiance",
+		mercAuraWanted: 104,
+		mercDiff: 0,
+	}
 	stats: [
 		["vitality", 60], ["dexterity", 30], ["strength", 27], ["vitality", 91], ["dexterity", 47], ["strength", 30], ["vitality", 96], ["dexterity", 59], ["strength", 60], ["vitality", 109], ["dexterity", 77], ["strength", 89], ["vitality", 137], ["dexterity", 89], ["vitality", 173], ["dexterity", 103], ["vitality", 208], ["dexterity", 118], ["vitality", 243], ["dexterity", 133], ["vitality", 279], ["dexterity", 147], ["vitality", "all"]
 	],
