@@ -591,15 +591,9 @@ var Check = {
 					tabSkills: -1,
 					wantedSkills: -1,
 					usefulSkills: -1,
-					if (!Developer.PD2) {
-						mercAuraName: "Holy Freeze",
-						mercAuraWanted: 114,
-						mercDiff: 1,
-					} else {
-						mercAuraName: "Defiance",
-						mercAuraWanted: 104,
-						mercDiff: 0,
-					}
+					mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze",
+					mercAuraWanted: Developer.PD2 ? 104 : 114,
+					mercDiff: Developer.PD2 ? 0 : 1,
 					finalGear: -1,
 				};
 			}

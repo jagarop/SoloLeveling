@@ -9,15 +9,9 @@ var build = {
 	skillstab: 17, //poison
 	wantedskills: [92, 74], // poison nova, corpse explosion
 	usefulskills: [66, 68, 91], //ampdamage, bone armor, lower resist
-	if (!Developer.PD2) {
-		mercAuraName: "Holy Freeze",
-		mercAuraWanted: 114,
-		mercDiff: 1,
-	} else {
-		mercAuraName: "Defiance",
-		mercAuraWanted: 104,
-		mercDiff: 0,
-	}
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraWanted: Developer.PD2 ? 104 : 114,
+	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [
 		["strength", 48], ["vitality", 165], ["strength", 61], ["vitality", 252], ["strength", 156], ["vitality", "all"]
 	],

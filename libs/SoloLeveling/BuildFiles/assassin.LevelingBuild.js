@@ -9,15 +9,9 @@ var build = {
 	skillstab: 48, // traps
 	wantedskills: [251, 271, 276], // fireblast, lightning sentry, death sentry
 	usefulskills: [261, 263], // charged bolt sentry, weapon block
-	if (!Developer.PD2) {
-		mercAuraName: "Holy Freeze",
-		mercAuraWanted: 114,
-		mercDiff: 1,
-	} else {
-		mercAuraName: "Defiance",
-		mercAuraWanted: 104,
-		mercDiff: 0,
-	}
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraWanted: Developer.PD2 ? 104 : 114,
+	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [
 		["strength", 47],
 		["dexterity", 46],

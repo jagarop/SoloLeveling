@@ -9,15 +9,9 @@ var build = {
 	skillstab: 24, //combat
 	wantedskills: [97, 122], //smite, fanaticism
 	usefulskills: [117, 125], //holy shield, salvation
-	if (!Developer.PD2) {
-		mercAuraName: "Holy Freeze",
-		mercAuraWanted: 114,
-		mercDiff: 1,
-	} else {
-		mercAuraName: "Defiance",
-		mercAuraWanted: 104,
-		mercDiff: 0,
-	}
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraWanted: Developer.PD2 ? 104 : 114,
+	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [
 		["strength", 115], ["dexterity", 136], ["vitality", 300], ["dexterity", "block"], ["vitality", "all"]
 	],
