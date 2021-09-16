@@ -9,7 +9,7 @@ var build = {
 	skillstab: 2, // Jav N Spear Skills
 	wantedskills: [24, 34], // Charged Strike, Lightning Strike
 	usefulskills: [9, 23, 32, 33], // Critical Strike, Penetrate, Valkyrie, Pierce
-	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze",
 	mercAuraWanted: Developer.PD2 ? 104 : 114,
 	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [

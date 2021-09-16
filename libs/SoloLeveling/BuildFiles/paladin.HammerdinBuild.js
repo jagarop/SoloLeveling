@@ -10,7 +10,7 @@ var build = {
 	skillstab: 24, //combat
 	wantedskills: [112, 113], // hammers, concentration
 	usefulskills: [117, 108], // holy shield, blessed aim
-	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze",
 	mercAuraWanted: Developer.PD2 ? 104 : 114,
 	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [

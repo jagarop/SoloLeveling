@@ -9,7 +9,7 @@ var build = {
 	skillstab: 0, // Bow N Crossbow Skills
 	wantedskills: [7, 16, 9], // fire arrow, exploding arrow, critical strike
 	usefulskills: [12, 13], // multishot, dodge
-	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze",
 	mercAuraWanted: Developer.PD2 ? 104 : 114,
 	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [

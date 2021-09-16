@@ -9,7 +9,7 @@ var build = {
 	skillstab: 9, //lightning
 	wantedskills: [38, 42], // charged bolt, static
 	usefulskills: [40, 49], // frozen armor, lightning
-	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze",
 	mercAuraWanted: Developer.PD2 ? 104 : 114,
 	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [

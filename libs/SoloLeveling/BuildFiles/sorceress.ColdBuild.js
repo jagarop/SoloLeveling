@@ -9,7 +9,7 @@ var build = {
 	skillstab: 10, //cold
 	wantedskills: [59, 65], // blizzard, cold mastery
 	usefulskills: [55, 45, 42], // glacial spike, ice blast, static
-	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze";
+	mercAuraName: Developer.PD2 ? "Defiance" : "Holy Freeze",
 	mercAuraWanted: Developer.PD2 ? 104 : 114,
 	mercDiff: Developer.PD2 ? 0 : 1,
 	stats: [
