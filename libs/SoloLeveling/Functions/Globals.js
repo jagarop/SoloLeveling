@@ -593,8 +593,8 @@ var Check = {
 					usefulSkills: -1,
 					if (!Developer.PD2) {
 						mercAuraName: "Holy Freeze",
-						mercAuraWanted: 104,
-						mercDiff: 2,
+						mercAuraWanted: 114,
+						mercDiff: 1,
 					} else {
 						mercAuraName: "Defiance",
 						mercAuraWanted: 104,
