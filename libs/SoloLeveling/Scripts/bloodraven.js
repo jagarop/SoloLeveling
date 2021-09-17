@@ -20,8 +20,12 @@ function bloodraven () {
 	if (me.normal) {
 		me.overhead("blood raven");
 		Pather.moveToExit([3, 17], true);
-		Pather.moveToPreset(17, 1, 805);
-		Attack.killTarget("Blood Raven");
+		if (Developer.PD2) {
+			Attack.clearLevel(0x7);
+		} else {
+			Pather.moveToPreset(17, 1, 805);
+			Attack.killTarget("Blood Raven");
+		}
 		Pickit.pickItems();
 		Town.npcInteract("kashya");
 
