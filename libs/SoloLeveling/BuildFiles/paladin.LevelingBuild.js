@@ -35,7 +35,7 @@ var build = {
 		[108, 1], // blessed aim
 		[109, 1], // cleansing
 		[108, 6], // blessed aim
-		...(Developer.PD2 ? ["371, 1"] : []), // PD2 holy light
+		[371, 1], // PD2 holy light - need to fix this!!!
 		[112, 1], // blessed hammers
 		[113, 1], // concentration
 		[115, 1], // vigor
