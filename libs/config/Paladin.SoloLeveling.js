@@ -252,6 +252,9 @@ function LoadConfig () {
 		"([type] == circlet || [type] == helm) && ([Quality] >= Magic || [flag] == runeword) # [itemchargedskill] >= 0 # [Merctier] == mercscore(item)",
 		"[Type] == armor && ([Quality] >= Magic || [flag] == runeword) # [itemchargedskill] >= 0 # [Merctier] == mercscore(item)",
 		"me.charlvl > 14 && [Type] == Polearm && ([Quality] >= Magic || [flag] == runeword) # [itemchargedskill] >= 0 # [Merctier] == mercscore(item)",
+		Developer.PD2 ? "[Type] == Boots && [Quality] >= Magic # [itemchargedskill] >= 0 # [Merctier] == mercscore(item)" : "" , // PD2 Boots
+		Developer.PD2 ? "[Type] == Gloves && [Quality] >= Magic # [itemchargedskill] >= 0 # [Merctier] == mercscore(item)" : "" , // PD2 Gloves
+		Developer.PD2 ? "[type] == belt && [Quality] >= Magic # [itemchargedskill] >= 0 # [Merctier] == mercscore(item)" : "" , // PD2 Belt
 		//charms
 		"[Name] == smallcharm && [Quality] >= Magic # [itemchargedskill] >= 0 # [charmtier] == charmscore(item)",
 		"[Name] == largecharm && [Quality] >= Magic # [itemchargedskill] >= 0 # [charmtier] == charmscore(item)",

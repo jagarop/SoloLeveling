@@ -600,6 +600,24 @@ Item.getBodyLocMerc = function (item) {
 		bodyLoc = 3;
 
 		break;
+	case 15: // Boots PD2
+		if (Developer.PD2) {
+			bodyLoc = 9;
+		}
+
+		break;
+	case 16: // Gloves PD2
+		if (Developer.PD2) {
+			bodyLoc = 10;
+		}
+
+		break;
+	case 19: // Belt PD2
+		if (Developer.PD2) {
+			bodyLoc = 8;
+		}
+
+		break;
 	case 37: // Helm
 	case 75: // Circlet
 		bodyLoc = 1;
