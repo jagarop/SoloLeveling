@@ -19,7 +19,7 @@ var build = {
 		[97, 20], //smite
 		[101, 1], // holy bolt
 		[107, 1], // charge
-		...(Developer.PD2 ? ["371 ,1"] : []), // PD2 holy light
+		...(Developer.PD2 ? ["371, 1"] : []), // PD2 holy light
 		[112, 1], //blessed hammer
 		[117, 20], // holy shield
 		[98, 1], // might
