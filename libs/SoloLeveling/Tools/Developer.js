@@ -9,10 +9,10 @@ const Developer = {
 	logPerformance: true,	// enables logging statistics
 	Overlay: true,	//enables overlay
 	logEquipped: false,	//enables equipped items viewable from D2Bot# charviewer tab
-	forcePacketCasting: true, //enables forced packet casting for skill.cast
+	forcePacketCasting: false, //enables forced packet casting for skill.cast
 	hideChickens: true, // disable printing chicken info in D2Bot console
 	addLadderRW: false, // set to true to enable single player ladder runewords ONLY WORKS IF RUNEWORDS.TXT IS INSTALLED AND D2BS PROFILE IS CONFIGURED
-	PD2: false, // set to true ONLY if you want to run bot on "Project Diablo 2" (www.projectdiablo2.com) server
+	PD2: true, // set to true ONLY if you want to run bot on "Project Diablo 2" (www.projectdiablo2.com) server
 
 	/*  Developer tools */
 	getObj: function (path) {

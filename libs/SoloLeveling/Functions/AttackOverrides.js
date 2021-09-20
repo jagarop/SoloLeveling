@@ -107,7 +107,7 @@ Attack.getSkillElement = function (skillId) {
 	case 500: // Summoner
 		return "physical";
 	case 101: // Holy Bolt
-		return "holybolt"; // no need to use this.elements array because it returns before going over the array
+		return "magic"; // no need to use this.elements array because it returns before going over the array
 	}
 
 	var eType = getBaseStat("skills", skillId, "etype");

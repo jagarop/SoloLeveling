@@ -90,21 +90,21 @@ var tierscore = function (item) {
 	var generalWeights = {
 		CBF: 25, // cannot be frozen
 		FRW: 1, // faster run/walk
-		FHR: 3, // faster hit recovery
+		FHR: 0, // faster hit recovery
 		DEF: 0.05, // defense
 		ICB: 2, // increased chance to block
 		BELTSLOTS: 1.55, //belt potion storage
 		MF: 1, //Magic Find
 		// base stats
-		HP:	0.5,
-		MANA: 0.5,
+		HP:	1,
+		MANA: 1,
 		STR: 1,
 		DEX: 1,
 	};
 
 	var casterWeights = {
 		//breakpoint stats
-		FCR: 5,
+		FCR: 0,
 		IAS: 0,
 		// Attack
 		MINDMG:	0, // min damage
@@ -125,8 +125,8 @@ var tierscore = function (item) {
 
 	var meleeWeights = {
 		//breakpoint stats
-		FCR: 1,
-		IAS: 3.5,
+		FCR: 0,
+		IAS: 0,
 		// Attack
 		MINDMG:	3, // min damage
 		MAXDMG: 3, // max damage
